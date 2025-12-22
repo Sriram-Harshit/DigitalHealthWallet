@@ -1,10 +1,3 @@
-Got it 👍
-Here is **ONE single, complete `README.md` file**, clean and continuous.
-You can **copy–paste it as-is**. Nothing is broken.
-
----
-
-````md
 # Digital Health Wallet 🏥
 
 Digital Health Wallet is a full-stack web application designed to securely store, manage, and track personal health information such as medical reports and vital health metrics. It provides users with a centralized platform to monitor their health data digitally instead of relying on physical records.
