@@ -1,7 +1,11 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL:
+    import.meta.env.MODE === "development"
+      ? "http://localhost:5000"
+      : "https://digital-health-wallet-36e4.vercel.app",
+  withCredentials: true,
 });
 
 api.interceptors.request.use((config) => {
